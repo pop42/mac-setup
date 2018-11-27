@@ -1,0 +1,40 @@
+{
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": false,
+  "prettier.ignorePath": ".prettierignore",
+  "editor.minimap.enabled": false,
+  "eslint.options": {
+    "rules": {
+      "import/no-webpack-loader-syntax": 0,
+      "space-before-function-paren": 2
+    }
+  },
+  "eslint.enable": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "extensions.ignoreRecommendations": false,
+  "window.zoomLevel": 0,
+  "gitlens.historyExplorer.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Solarized Light"
+}
