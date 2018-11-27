@@ -113,3 +113,5 @@ You need an editor to work in.  VSCode is pretty awesome and works for both macs
 
 After installing vscode, open it from Applications, hit cmd+shift+P to open the Command Pallet, type *shell* and select *install code command in path*.  Now you can type _code ._ from anywhere to open vscode to your current directory.  Or _code ~/projects/whatever_ to automatically open up that directory or file in vscode.
 
+To set some great initial settings for vscode, go to [vscode_settings](https://raw.githubusercontent.com/pop42/mac-setup/master/vscode_settings.json) and copy the content.  Then with vscode active, go to **code > preferences > settings** with **user settings** selected, click on the elipses (...) on the right and select **open settings.json** and replace the content  with what you copied from my vscode_settings.
+
