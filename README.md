@@ -5,6 +5,7 @@
 - [Google Chrome](#google-chrome)
 - [LastPass](#lastpass)
 - [iTerm2](#iterm2)
+- [Homebrew](#homebrew)
 
 ## System Update
 
@@ -34,4 +35,8 @@ If you have it synced from your earlier google accounts, you can just log into i
 
 ## iTerm2
 
-You will spend a lot of time on the command-line... install a good one.  I suggest [iTerm2](https://www.iterm2.com/).  
+You will spend a lot of time on the command-line... install a good one.  I suggest [iTerm2](https://www.iterm2.com/).  Download it, unpack it, then drag it into Applications.
+
+## Homebrew
+
+A great way to install and manage many of the utilities you will need.  Open iTerm2 by hitting ** cmd+spacbar** and typing _iterm_.   Then type **xcode-select --install**
