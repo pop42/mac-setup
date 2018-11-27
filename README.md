@@ -7,6 +7,7 @@
 - [Fonts](#fonts)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
+- [Git](#git)
 
 ## System Update
 
@@ -68,9 +69,12 @@ You will need some good dotfiles to finish up your iterm setup.  I have three gr
 
 Copy and paste this in your terminal:  
 
-```
-cd ~ && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt
-```
+
+    cd ~ && //
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases && //
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile && //
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt
+
 
 Close and reopen your terminal once again and marvel at its beauty!
 
@@ -80,4 +84,18 @@ A great way to install and manage many of the utilities you will need.  Open iTe
 
 Now `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` to install homebrew.  You will have to  type in your password once, but after this, you really should not ever need to _sudo_ again to install items.
 
+# Git
+
+Gotta have it.
+
+`brew install git`
+
+Now  lets get it configured a bit.
+
+`cd ~ && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.gitconfig` will give you some nice colors for the status, branch and diff commands
+
+also.. set your user info: 
+
+    git config --global user.name "Your Name Here"
+    git config --global user.email "your_email@youremail.com"
 
