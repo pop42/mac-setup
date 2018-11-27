@@ -70,9 +70,9 @@ You will need some good dotfiles to finish up your iterm setup.  I have three gr
 Copy and paste this in your terminal:  
 
 
-    cd ~ && //
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases && //
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile && //
+    cd ~
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases 
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile
     curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt
 
 
