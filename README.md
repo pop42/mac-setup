@@ -4,6 +4,7 @@
 - [System Preferences](#system-preferences)
 - [Google Chrome](#google-chrome)
 - [LastPass](#lastpass)
+- [Fonts](#fonts)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
 
@@ -34,6 +35,10 @@ Afterwards, I suggest signing  into chrome with your google account and syncing.
 
 If you have it synced from your earlier google accounts, you can just log into it.  Otherwise, download it, install it and use it for your passwords.
 
+## Fonts 
+
+Because you will be working with fonts all day long, it's a good idea to download a font you like.  Because you will be writing code, you need a good mono-spaced font to work with.  Lately I have been happy with [inconsolata](https://fonts.google.com/specimen/Inconsolata?selection.family=Inconsolata).  I suggest downloading it, unzipping it and installing it.  After you unzip it you install it by doubleclicking on the .ttf files and  clicking install.
+
 ## iTerm2
 
 You will spend a lot of time on the command-line... install a good one.  I suggest [iTerm2](https://www.iterm2.com/).  Download it, unpack it, then drag it into Applications.
@@ -48,9 +53,13 @@ In the tab **Profiles**, create a new one with the "+" icon, and rename it to yo
 
 In the tab **Colors** choose a preset from the dropdown in the bottom right and adjust to  your liking. I usually take _solarized light_.  I just like the way it looks.
 
+In the **Text** tab, click **Change Font** and select your favorite monospaced font such as _Inconsolata_ at 14pt.
 
+In the **Terminal** tab, check **Unlimited scrollback**.  Also, because I don't like sounds, check **Silence bell**.
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
+
+
 ## Homebrew
 
 A great way to install and manage many of the utilities you will need.  Open iTerm2 by hitting **cmd+spacebar** and typing _iterm_.   Then type **xcode-select --install** and hit return.  This will install xcode which will is needed for everything else.
