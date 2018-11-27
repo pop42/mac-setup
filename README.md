@@ -59,10 +59,15 @@ In the **Terminal** tab, check **Unlimited scrollback**.  Also, because I don't 
 
 You will also need some dotfiles to do all the good stuff.  _.bash_profile_ is called first, then it calls in the rest.  To get you started, pull down the three I have here:
 
-Copy and paste this in your terminal:  `cd ~ && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt`
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
+##  Dotfiles
+
+You will need some good dotfiles to finish up your iterm setup.  I have three great ones to get you started... just run the following in your terminal  to download a [.aliases](https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases),[.bash_profile](https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile), [.bash_prompt](https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt) 
+
+```
+Copy and paste this in your terminal:  `cd ~ && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt```
 
 ## Homebrew
 
