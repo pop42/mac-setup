@@ -72,6 +72,8 @@ Copy and paste this in your terminal:
 cd ~ && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile && curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt
 ```
 
+Close and reopen your terminal once again and marvel at its beauty!
+
 ## Homebrew
 
 A great way to install and manage many of the utilities you will need.  Open iTerm2 by hitting **cmd+spacebar** and typing _iterm_.   Then type **xcode-select --install** and hit return.  This will install xcode which will is needed for everything else.
