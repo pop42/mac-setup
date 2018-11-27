@@ -74,6 +74,7 @@ Copy and paste this in your terminal:
     curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases 
     curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile
     curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt
+    ls -la
 
 
 Close and reopen your terminal once again and marvel at its beauty!
@@ -98,4 +99,9 @@ also.. set your user info:
 
     git config --global user.name "Your Name Here"
     git config --global user.email "your_email@youremail.com"
+    
+And your osKeyChain so you don't have to keep typing your password over and over.
+
+    git config --global credential.helper osxkeychain
+    git config -l
 
