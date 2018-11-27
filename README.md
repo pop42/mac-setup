@@ -14,6 +14,7 @@
 - [Node](#node)
 - [awscli](#awscli)
 - [Docker](#docker)
+- [Slack](#slack)
 - [Projects](#projects)
 
 ## System Update
@@ -142,6 +143,10 @@ If you are working directly with aws, you might need the awscli
 # Docker
 
 Download and install [docker for mac](https://store.docker.com/editions/community/docker-ce-desktop-mac). I believe they new ask you to login before downloading...
+
+# Slack
+
+Need [slack](https://slack.com/downloads/osx)) to communicate.
 
 # Projects
 
