@@ -22,6 +22,7 @@ In **Apple Icon > System Preferences**:
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
 - Keyboard > Text > Uncheck all options, especially _use smart quotes and dashes_
 - Dock > Automatically hide and show the Dock and position on screen to Right
+- Sharing > Change your computer name to something shorter and nicer... I used **vault72**
 
 ## Google Chrome
 
@@ -39,8 +40,21 @@ You will spend a lot of time on the command-line... install a good one.  I sugge
 
 Open iTerm2 by hitting **cmd+spacebar** and typing _iterm_.  Follow the instructions to give it full disk access.
 
+Since you will be using iterm so much, let's make it prettier.
+
+In **iTerm2 > Preferences** on the **General** tab, uncheck everything in the *Closing* section.
+
+In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
+
+In the tab **Colors** choose a preset from the dropdown in the bottom right and adjust to  your liking. I usually take _solarized light_.  I just like the way it looks.
+
+
+
+When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 ## Homebrew
 
 A great way to install and manage many of the utilities you will need.  Open iTerm2 by hitting **cmd+spacebar** and typing _iterm_.   Then type **xcode-select --install** and hit return.  This will install xcode which will is needed for everything else.
 
-Now `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` to install homebrew.
+Now `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` to install homebrew.  You will have to  type in your password once, but after this, you really should not ever need to _sudo_ again to install items.
+
+
