@@ -1,5 +1,7 @@
 # Mac Setup
 
+## TOC
+
 - [System Update](#system-update)
 - [System Preferences](#system-preferences)
 - [Google Chrome](#google-chrome)
