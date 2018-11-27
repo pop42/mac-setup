@@ -1,7 +1,7 @@
-dbaeumer.vscode-eslint
-eamodio.gitlens
-esbenp.prettier-vscode
-kumar-harsh.graphql-for-vscode
-mikestead.dotenv
-PeterJausovec.vscode-docker
-shd101wyy.markdown-preview-enhanced
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension mikestead.dotenv
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension shd101wyy.markdown-preview-enhanced
