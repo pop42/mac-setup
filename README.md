@@ -8,6 +8,7 @@
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
 - [Git](#git)
+- [VSCode](#vscode)
 
 ## System Update
 
@@ -104,4 +105,11 @@ And your osKeyChain so you don't have to keep typing your password over and over
 
     git config --global credential.helper osxkeychain
     git config -l
+
+
+## vscode
+
+You need an editor to work in.  VSCode is pretty awesome and works for both macs and windows.  Download it from [here](https://code.visualstudio.com/docs/?dv=osx) unzip it, and drag it to the Applications directory.
+
+After installing vscode, open it from Applications, hit cmd+shift+P to open the Command Pallet, type *shell* and select *install code command in path*.  Now you can type _code ._ from anywhere to open vscode to your current directory.  Or _code ~/projects/whatever_ to automatically open up that directory or file in vscode.
 
