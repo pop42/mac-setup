@@ -70,19 +70,23 @@ You will also need some dotfiles to do all the good stuff. _.bash_profile_ is ca
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
-## Dotfiles
+## Oh My ZSH
 
-You will need some good dotfiles to finish up your iterm setup. I have three great ones to get you started... just run the following in your terminal to download a [.aliases](https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases),[.bash_profile](https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile), [.bash_prompt](https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt)
+Oh My ZSH makes your terminal experience just that much better... go ahead and download it. [zsh](https://ohmyz.sh/#install)
+
+### profile
+
+A .profile file will make your life a ton better.  Basically, it's shortcuts inside of your terminal.  For example, rather than having to type "cd .." you can just type .., or dcup instead of "docker-compose up"
 
 Copy and paste this in your terminal:
 
-    cd ~
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.aliases
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_profile
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.bash_prompt
+    cd $ZSH_CUSTOM
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.profile
     ls -la
 
 Close and reopen your terminal once again and marvel at its beauty!
+
+Whenever you find yourself typing the same commands over and over, feel free to edit that .profile file inside of $ZSH_CUSTOM!
 
 ## Homebrew
 
@@ -112,15 +116,11 @@ And your osKeyChain so you don't have to keep typing your password over and over
     git config --global credential.helper osxkeychain
     git config -l
 
-## VScode
+## Webstorm/DataGrip
 
-You need an editor to work in. VSCode is pretty awesome and works for both macs and windows. Download it from [here](https://code.visualstudio.com/docs/?dv=osx) unzip it, and drag it to the Applications directory.
+You need an editor to work in. Webstorm is pretty awesome and works for both macs and windows. Download it from [here](https://www.jetbrains.com/webstorm/download/#section=mac) unzip it, and drag it to the Applications directory.
 
-After installing vscode, open it from Applications, hit cmd+shift+P to open the Command Pallet, type _shell_ and select _install code command in path_. Now you can type _code ._ from anywhere to open vscode to your current directory. Or _code ~/projects/whatever_ to automatically open up that directory or file in vscode.
-
-To set some great initial settings for vscode, go to [vscode_settings](https://raw.githubusercontent.com/pop42/mac-setup/master/vscode_settings.json) and copy the content. Then with vscode active, go to **code > preferences > settings** with **user settings** selected, click on the elipses (...) on the right and select **open settings.json** and replace the content with what you copied from my vscode_settings.
-
-To get the associated extensions, copy from [vscode_extensions](https://raw.githubusercontent.com/pop42/mac-setup/master/vscode_extensions) and paste in your terminal. Then close vscode and reopen to see the new extensions.
+DataGrip allows you to easily query and manage databases.  Download it from [here](https://www.jetbrains.com/datagrip/download/#section=mac)
 
 # node
 
@@ -132,7 +132,7 @@ To install the latest node version, type `nvm install node`. To learn more about
 
 Now install a few useful global modules we are currently using:
 
-    npm i -g jest npm-check sequelize-cli serverless
+    npm i -g jest npm-check serverless
 
 # awscli
 
@@ -144,10 +144,11 @@ If you are working directly with aws, you might need the awscli
 
 Download and install [docker for mac](https://store.docker.com/editions/community/docker-ce-desktop-mac). I believe they new ask you to login before downloading...
 
-# Slack
-
-Need [slack](https://slack.com/downloads/osx)) to communicate.
 
 # Projects
 
 I generally create a ~/projects directory and use it for most all the development work I do. Within that directory, I may create a /personal and a /work directory to separate my personal work from my actual work.
+
+#Microsoft Remote Desktop
+
+Go ahead and search for Remote Desktop in the app store and install that if you are on a mac!

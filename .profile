@@ -1,0 +1,6 @@
+alias ..='cd ..'
+alias dc='docker-compose'
+alias dcbnc='dc build --no-cache'
+alias dcbuild='dc build --parallel'
+alias dcdown='dc down'
+alias dcup='dc up'
