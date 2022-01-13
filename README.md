@@ -80,7 +80,7 @@ An aliases.zsh file will make your life a ton better.  Basically, it's shortcuts
 Copy and paste this in your terminal:
 
     cd $ZSH_CUSTOM
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/aliases.zsh
+curl -OOOO https://raw.githubusercontent.com/pop42/mac-setup/main/zsh_custom/\{aliases.zsh,exports.zsh,nvm.zsh,paths.zsh\}
     ls -la
 
 Close and reopen your terminal once again and marvel at its beauty!
