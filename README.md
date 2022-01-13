@@ -74,14 +74,13 @@ When done, hit the red "X" in the upper left (saving is automatic in OS X prefer
 
 Oh My ZSH makes your terminal experience just that much better... go ahead and download it. [zsh](https://ohmyz.sh/#install)
 
-### profile
+An aliases.zsh file will make your life a ton better.  Basically, it's shortcuts inside of your terminal.  For example, rather than having to type "cd .." you can just type .., or "dc up" instead of "docker-compose up"
 
-A .profile file will make your life a ton better.  Basically, it's shortcuts inside of your terminal.  For example, rather than having to type "cd .." you can just type .., or dcup instead of "docker-compose up"
 
 Copy and paste this in your terminal:
 
     cd $ZSH_CUSTOM
-    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/.profile
+    curl -O https://raw.githubusercontent.com/pop42/mac-setup/master/aliases.zsh
     ls -la
 
 Close and reopen your terminal once again and marvel at its beauty!
