@@ -38,11 +38,13 @@ In **Apple Icon > System Preferences**:
 
 You need a good browser... [Google Chrome](//google.com/chrome) is my favorite. Download the _.dmg_ file, click to install and follow instructions.
 
-Afterwards, I suggest signing into chrome with your google account and syncing.
+Afterwards, I suggest sign in to chrome with your Google account and syncing.
 
-## LastPass
+## Passwords
 
-If you have it synced from your earlier google accounts, you can just log into it. Otherwise, download it, install it and use it for your passwords.
+Use Lastpass or 1Password. Either works.
+
+If you have it synced from your earlier Google accounts, you can just log into it. Otherwise, download it, install it and use it for your passwords.
 
 ## Fonts
 
@@ -65,8 +67,6 @@ In the tab **Colors** choose a preset from the dropdown in the bottom right and 
 In the **Text** tab, click **Change Font** and select your favorite monospaced font such as _Inconsolata_ at 14pt.
 
 In the **Terminal** tab, check **Unlimited scrollback**. Also, because I don't like sounds, check **Silence bell**.
-
-You will also need some dotfiles to do all the good stuff. _.bash_profile_ is called first, then it calls in the rest. To get you started, pull down the three I have here:
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 

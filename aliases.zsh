@@ -20,10 +20,14 @@ alias ...='cd ../..'
 alias hg='history | grep'
 alias cdprojects='cd ~/projects'
 
-# docker 
-alias dcup='docker-compose up'
-alias dcdown='docker-compose down'
-alias dcclean='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -a -q) --force'
+# ZSH Shortcuts
+alias cdzsh='cd $ZSH_CUSTOM'
+
+# docker
+alias dc='docker-compose'
+alias dcrestart='docker-compose down;docker-compose up --build'
+alias dcbuild='docker-compose build --parallel'
+alias dclean='docker stop $(docker ps -a -q);docker rm $(docker ps -a -q) ; docker rmi $(docker images -a -q) --force '
 
 
 # Always use color output for `ls`
