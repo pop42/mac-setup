@@ -23,11 +23,28 @@ alias cdprojects='cd ~/projects'
 # ZSH Shortcuts
 alias cdzsh='cd $ZSH_CUSTOM'
 
+alias laser='./laser'
+
 # docker
 alias dc='docker-compose'
 alias dcrestart='docker-compose down;docker-compose up --build'
 alias dcbuild='docker-compose build --parallel'
 alias dclean='docker stop $(docker ps -a -q);docker rm $(docker ps -a -q) ; docker rmi $(docker images -a -q) --force '
+alias ddown='docker stop $(docker ps -a -q);docker rm $(docker ps -a -q)'
+
+# git
+
+
+# nova
+alias nid='npm run install-deps'
+alias nrm='npm run mocks'
+alias ngo='nid && nsa'
+alias novaserve='./nova_serve.sh'
+alias cdnova='cd ~/projects/opendock/opendock-nova'
+alias nsa='npm run serve-all'
+alias dcbuild='npm run docker:build'
+alias dcup='npm run docker:up'
+alias dcdown='npm run docker:down'
 
 
 # Always use color output for `ls`
